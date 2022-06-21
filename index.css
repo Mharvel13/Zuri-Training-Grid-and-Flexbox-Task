@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
 
 body{
     margin: 0;
-    padding: 0
+    padding: 0;  
 }
 
 .body-container{
@@ -40,10 +44,10 @@ header a{
     color: white;
     text-decoration:none;
 }
+
 header li:hover{
     background-color: black;
-    color: white;
-   
+    color: white;   
 }
 
 
@@ -51,8 +55,7 @@ header li:hover{
 .container{
     background-color: rgb(167, 160, 160);
     width: 60%; 
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .grid-container{
@@ -92,13 +95,14 @@ header li:hover{
 }
 
 
-/* Flex Task Styles */
 
+/* Flex Task Styles */
 
 .flex-container{
     display: flex;
     width: 60%;
     margin: 0 auto;
+    font-size: 15px;
 }
 
 .box{
@@ -125,19 +129,20 @@ header li:hover{
 
 .text{
     margin: 20px 10px;
-    font-size: 15px;
-    font-weight: 400;
     color:  hsla(0, 0%, 100%, 0.75);
 }
 
 .text h2{
     color:hsl(0, 0%, 95%);
     margin: 20px 0px;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
 }
 
 .text p{
     line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
 }
 
 button{
@@ -170,7 +175,7 @@ button:hover{
 }
 
 
-
+/* Small Screen Sizes */
 @media(max-width:800px){
 
    
